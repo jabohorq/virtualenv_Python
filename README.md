@@ -12,33 +12,33 @@ Install
 $ sudo -H pip install --upgrade virtualenv
 
 Create a virtual environment for a project
-# cd project_folder
-# virtualenv my_project
+$ cd project_folder
+$ virtualenv my_project
 
 Use a specific python interpreter
-# virtualenv --python python3 my_project
+$ virtualenv --python python3 my_project
 
 Activate project
-# source my_project/bin/activate
+$ source my_project/bin/activate
 
 Install packages
-# pip install requests
-# pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+$ pip install requests
+$ pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
 Create a requirements file
-# pip freeze > requirements.txt
+$ pip freeze > requirements.txt
 Exit
-# deactivate
+$ deactivate
 
 
 PROJECT MPI4PY
-# mkdir mpiProy
-# cd mpiProy/
-# virtualenv mpiProy
-# source mpiProy/bin
-#  pip install requests
-# pip install numpy scipy matplotlib ipython
-# pip install mpi4py
-# pip freeze > requirements.txt
+$ mkdir mpiProy
+$ cd mpiProy/
+$ virtualenv mpiProy
+$ source mpiProy/bin
+$  pip install requests
+$ pip install numpy scipy matplotlib ipython
+$ pip install mpi4py
+$ pip freeze > requirements.txt
 
 
